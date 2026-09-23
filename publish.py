@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import calendar
 import hashlib
 import html
 import json
@@ -13,7 +14,7 @@ import shutil
 import subprocess
 import sys
 import uuid
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import quote
 
@@ -331,7 +332,10 @@ def tracker_call_tokens(value: str, call_type: str) -> list[dict[str, str]]:
         return []
     group_carried = re.search(r"均\s+Carried，\s*自\s*(\d{4}-\d{2}-\d{2})", value)
     cleaned = re.sub(r"[（(]均\s+Carried.*[）)]\s*$", "", value).strip()
-    separator = "、" if call_type in {"Overweight Sector", "Underweight Sector"} else "；"
+    # The deterministic Tracker joins every atomic ledger record with a
+    # full-width semicolon, including sector calls. Splitting all call types
+    # the same way keeps each sector linked and exported independently.
+    separator = "；"
     tokens = []
     for segment in split_outside_parentheses(cleaned, separator):
         call = re.split(r"[（(]", segment, maxsplit=1)[0].strip()
@@ -348,7 +352,28 @@ def tracker_call_tokens(value: str, call_type: str) -> list[dict[str, str]]:
     return tokens
 
 
-def active_ledger_calls(ledger: dict) -> list[dict[str, str]]:
+def target_date_end(value: str) -> date | None:
+    range_match = re.fullmatch(r"(\d{4}-\d{2}-\d{2})/(\d{4}-\d{2}-\d{2})", value)
+    if range_match:
+        try:
+            start, end = (date.fromisoformat(item) for item in range_match.groups())
+        except ValueError:
+            return None
+        return end if start <= end else None
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+        try:
+            return date.fromisoformat(value)
+        except ValueError:
+            return None
+    month_match = re.fullmatch(r"(\d{4})-(\d{2})", value)
+    if month_match:
+        year, month = map(int, month_match.groups())
+        if 1 <= month <= 12:
+            return date(year, month, calendar.monthrange(year, month)[1])
+    return None
+
+
+def active_ledger_calls(ledger: dict, *, as_of: date | None = None) -> list[dict[str, str]]:
     latest_coverage: dict[tuple[str, str], str] = {}
     for coverage in ledger.get("coverage", []):
         for asset in coverage.get("assets", []):
@@ -360,12 +385,23 @@ def active_ledger_calls(ledger: dict) -> list[dict[str, str]]:
         key = (record["broker"], record["asset"], record["series"])
         groups.setdefault(key, []).append(record)
 
+    latest_withdrawal: dict[tuple[str, str, str], str] = {}
+    for withdrawal in ledger.get("withdrawals", []):
+        key = (withdrawal["broker"], withdrawal["asset"], withdrawal["series"])
+        latest_withdrawal[key] = max(latest_withdrawal.get(key, ""), withdrawal["report_date"])
+
     active: list[dict[str, str]] = []
     for (broker, asset, _series), records in groups.items():
         active_date = max(record["report_date"] for record in records)
         coverage_date = latest_coverage.get((broker, asset), active_date)
+        withdrawn_at = latest_withdrawal.get((broker, asset, _series), "")
         for record in records:
             if record["report_date"] != active_date:
+                continue
+            if withdrawn_at and record["report_date"] <= withdrawn_at:
+                continue
+            end = target_date_end(record.get("target_date", ""))
+            if end is not None and end < (as_of or date.today()):
                 continue
             active.append(
                 {
@@ -447,6 +483,8 @@ def attach_call_links(
                             "target_date": source.get("target_date", ""),
                             "status": source["status"],
                             "note": source.get("note", ""),
+                            "call_date": source["report_date"],
+                            "as_of_date": record.get("Call 日期", source["report_date"]),
                             "url": f"reports/{report['slug']}/index.html",
                         }
                     )
@@ -763,6 +801,76 @@ def build_search_index(reports: list[dict], weekly: list[dict], tracker: str, ou
     (output / "search-index.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def validate_forecast_feed(feed: dict, base_url: str) -> None:
+    expected_top = {"schema_version", "site_id", "content_as_of", "reference_year", "source_url", "calls"}
+    expected_call = {"broker", "asset", "type", "call", "target_date", "call_date", "as_of_date", "status", "note", "source_url"}
+    allowed_assets = {"US IG", "US HY", "EUR IG", "EUR HY"}
+    allowed_types = {item[1] for item in CALL_FIELDS}
+    if set(feed) != expected_top or feed["schema_version"] != 1 or feed["site_id"] != "ib-knowledge-base":
+        raise ValueError("Forecast feed schema 無效")
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", feed["content_as_of"]):
+        raise ValueError("Forecast feed content_as_of 無效")
+    if feed["reference_year"] != int(feed["content_as_of"][:4]):
+        raise ValueError("Forecast feed reference_year 無效")
+    base = base_url.rstrip("/") + "/"
+    if feed["source_url"] != f"{base}forecast/" or not isinstance(feed["calls"], list) or not feed["calls"]:
+        raise ValueError("Forecast feed source 或 calls 無效")
+    for item in feed["calls"]:
+        if set(item) != expected_call:
+            raise ValueError("Forecast call 公開欄位無效")
+        if item["asset"] not in allowed_assets or item["type"] not in allowed_types or item["status"] not in {"Latest", "Carried"}:
+            raise ValueError("Forecast call enum 無效")
+        for field in ("broker", "call", "target_date", "note"):
+            if not isinstance(item[field], str):
+                raise ValueError(f"Forecast call {field} 必須是文字")
+        for field in ("call_date", "as_of_date"):
+            try:
+                parsed = date.fromisoformat(item[field])
+            except (TypeError, ValueError) as exc:
+                raise ValueError(f"Forecast call {field} 無效") from exc
+            if parsed.isoformat() != item[field]:
+                raise ValueError(f"Forecast call {field} 無效")
+        if item["call_date"] > item["as_of_date"] or item["as_of_date"] > feed["content_as_of"]:
+            raise ValueError("Forecast call 日期順序無效")
+        if not item["source_url"].startswith(f"{base}reports/"):
+            raise ValueError("Forecast call source_url 無效")
+
+
+def build_forecast_feed(config: dict, calls: dict[str, list[dict[str, str]]], output: Path) -> dict:
+    base = config["BaseUrl"].rstrip("/") + "/"
+    records: list[dict[str, str]] = []
+    for asset in ("US IG", "US HY", "EUR IG", "EUR HY"):
+        for row in calls[asset]:
+            for tracker_field, call_type in CALL_FIELDS:
+                for item in row["CallItems"][tracker_field]:
+                    records.append(
+                        {
+                            "broker": row["券商"],
+                            "asset": asset,
+                            "type": call_type,
+                            "call": item["call"],
+                            "target_date": item["target_date"],
+                            "call_date": item["call_date"],
+                            "as_of_date": item["as_of_date"],
+                            "status": item["status"],
+                            "note": item["note"],
+                            "source_url": base + item["url"],
+                        }
+                    )
+    content_as_of = max(item["as_of_date"] for item in records)
+    feed = {
+        "schema_version": 1,
+        "site_id": "ib-knowledge-base",
+        "content_as_of": content_as_of,
+        "reference_year": int(content_as_of[:4]),
+        "source_url": f"{base}forecast/",
+        "calls": records,
+    }
+    validate_forecast_feed(feed, base)
+    (output / "forecast-calls.json").write_text(json.dumps(feed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return feed
+
+
 def hash_public(output: Path) -> str:
     digest = hashlib.sha256()
     for path in sorted(output.rglob("*")):
@@ -773,7 +881,7 @@ def hash_public(output: Path) -> str:
 
 
 def validate_public(output: Path, expected_reports: int, expected_weekly: int) -> None:
-    required = [output / "index.html", output / "forecast" / "index.html", output / "weekly" / "index.html", output / "search-index.json", output / "rv/index.html", output / "integration-manifest.json"]
+    required = [output / "index.html", output / "forecast" / "index.html", output / "forecast-calls.json", output / "weekly" / "index.html", output / "search-index.json", output / "rv/index.html", output / "integration-manifest.json"]
     for path in required:
         if not path.is_file():
             raise ValueError(f"缺少網站輸出：{path.relative_to(output)}")
@@ -809,7 +917,7 @@ def build_rv_redirect(output: Path) -> None:
     (output / "rv" / "index.html").write_text(page + "\n", encoding="utf-8")
 
 
-def integration_manifest(config: dict, weekly: list[dict], reports: list[dict], output: Path) -> dict:
+def integration_manifest(config: dict, weekly: list[dict], reports: list[dict], forecast: dict, output: Path) -> dict:
     dates = [item["date"] for item in weekly] + [item["date"] for item in reports]
     return {
         "schema_version": 1,
@@ -820,6 +928,14 @@ def integration_manifest(config: dict, weekly: list[dict], reports: list[dict], 
         "content_as_of": max(dates),
         "validation_status": "PASS",
         "content_sha256": hash_public(output),
+        "datasets": {
+            "forecast": {
+                "asset": "forecast-calls.json",
+                "schema_version": forecast["schema_version"],
+                "content_as_of": forecast["content_as_of"],
+                "sha256": hashlib.sha256((output / "forecast-calls.json").read_bytes()).hexdigest(),
+            }
+        },
         "peer": {
             "site_id": "rv-dashboard",
             "manifest_url": "https://creditbase02.github.io/rv-dashboard/integration-manifest.json",
@@ -848,8 +964,9 @@ def build(config: dict) -> tuple[Path, dict]:
         build_home(config, reports, weekly, calls, temporary)
         build_secondary_pages(config, reports, weekly, tracker, temporary)
         build_search_index(reports, weekly, tracker, temporary)
+        forecast = build_forecast_feed(config, calls, temporary)
         build_rv_redirect(temporary)
-        peer_manifest = integration_manifest(config, weekly, reports, temporary)
+        peer_manifest = integration_manifest(config, weekly, reports, forecast, temporary)
         (temporary / "integration-manifest.json").write_text(
             json.dumps(peer_manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )

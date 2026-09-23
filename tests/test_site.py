@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 import sys
 import unittest
@@ -44,6 +45,7 @@ class GeneratedSiteTests(unittest.TestCase):
         cls.manifest = json.loads((PUBLIC_DIR / "site-manifest.json").read_text(encoding="utf-8"))
         cls.integration = json.loads((PUBLIC_DIR / "integration-manifest.json").read_text(encoding="utf-8"))
         cls.search = json.loads((PUBLIC_DIR / "search-index.json").read_text(encoding="utf-8"))
+        cls.forecast = json.loads((PUBLIC_DIR / "forecast-calls.json").read_text(encoding="utf-8"))
 
     def test_manifest_is_valid(self) -> None:
         self.assertEqual(self.manifest["validation"]["status"], "PASS")
@@ -55,6 +57,29 @@ class GeneratedSiteTests(unittest.TestCase):
         self.assertEqual(self.integration["site_id"], "ib-knowledge-base")
         self.assertEqual(self.integration["validation_status"], "PASS")
         self.assertEqual(self.integration["peer"]["site_id"], "rv-dashboard")
+        dataset = self.integration["datasets"]["forecast"]
+        self.assertEqual(dataset["asset"], "forecast-calls.json")
+        self.assertEqual(dataset["schema_version"], 1)
+        self.assertEqual(dataset["content_as_of"], self.forecast["content_as_of"])
+        self.assertEqual(dataset["sha256"], hashlib.sha256((PUBLIC_DIR / "forecast-calls.json").read_bytes()).hexdigest())
+
+    def test_forecast_feed_is_public_atomic_and_current(self) -> None:
+        self.assertEqual(set(self.forecast), {"schema_version", "site_id", "content_as_of", "reference_year", "source_url", "calls"})
+        self.assertEqual(self.forecast["schema_version"], 1)
+        self.assertEqual(self.forecast["reference_year"], int(self.forecast["content_as_of"][:4]))
+        self.assertGreater(len(self.forecast["calls"]), 20)
+        expected = {"broker", "asset", "type", "call", "target_date", "call_date", "as_of_date", "status", "note", "source_url"}
+        for item in self.forecast["calls"]:
+            self.assertEqual(set(item), expected)
+            self.assertIn(item["status"], {"Latest", "Carried"})
+            self.assertTrue(item["source_url"].startswith("https://creditbase02.github.io/ib-knowledge-base/reports/"))
+            slug = item["source_url"].removeprefix("https://creditbase02.github.io/ib-knowledge-base/reports/").removesuffix("/index.html").strip("/")
+            self.assertTrue((PUBLIC_DIR / "reports" / slug / "index.html").is_file())
+            end = publish.target_date_end(item["target_date"])
+            self.assertTrue(end is None or end >= publish.date.today())
+        sectors = [item["call"] for item in self.forecast["calls"] if item["broker"] == "TD" and item["asset"] == "US IG" and item["type"] == "Overweight Sector"]
+        self.assertTrue({"Utilities", "Life Insurance", "Consumer Non-Cyclicals"}.issubset(sectors))
+        self.assertNotIn("$200Bn per year", [item["call"] for item in self.forecast["calls"]])
 
     def test_rv_is_external_and_legacy_path_redirects(self) -> None:
         self.assertIn('href="https://creditbase02.github.io/rv-dashboard/">RV 相對價值</a>', self.home)
