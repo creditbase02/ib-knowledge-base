@@ -3,10 +3,18 @@
   "site_id": "ib-knowledge-base",
   "production_url": "https://creditbase02.github.io/ib-knowledge-base/",
   "commit_sha": "PENDING_CI",
-  "built_at": "2026-09-21T15:51:20+08:00",
+  "built_at": "2026-09-23T17:04:57+08:00",
   "content_as_of": "2026-09-18",
   "validation_status": "PASS",
-  "content_sha256": "a71c51266f26ab9f9b229c244249d6fda7c1654602d9e615e2a367a5f08e53ab",
+  "content_sha256": "d093dc81c791aaea65c63d19544a771c36001e43a59644031afde0f67d2f0327",
+  "datasets": {
+    "forecast": {
+      "asset": "forecast-calls.json",
+      "schema_version": 1,
+      "content_as_of": "2026-09-18",
+      "sha256": "cd5924b8af636902c293f4e9f6209cc18bd533a1c80f577acdfccb518f3d3d40"
+    }
+  },
   "peer": {
     "site_id": "rv-dashboard",
     "manifest_url": "https://creditbase02.github.io/rv-dashboard/integration-manifest.json"
