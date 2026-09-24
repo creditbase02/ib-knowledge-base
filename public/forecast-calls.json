@@ -116,6 +116,18 @@
     {
       "broker": "Barclays",
       "asset": "US IG",
+      "type": "Overweight Sector",
+      "call": "Basics",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
+      "as_of_date": "2026-09-18",
+      "status": "Latest",
+      "note": "US PEAD sector implication偏好IG Basics。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-09-18/index.html"
+    },
+    {
+      "broker": "Barclays",
+      "asset": "US IG",
       "type": "Hyperscaler Issuance",
       "call": "Additional Microsoft and Meta issuance; potential Amazon issuance",
       "target_date": "H2 2026",
@@ -297,49 +309,13 @@
       "broker": "GS",
       "asset": "US IG",
       "type": "Spread",
-      "call": "85bps",
-      "target_date": "2026 Q3",
-      "call_date": "2026-09-11",
-      "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "US IG",
-      "type": "Spread",
       "call": "82bps",
-      "target_date": "2026 Q4",
-      "call_date": "2026-09-11",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
       "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "US IG",
-      "type": "Spread",
-      "call": "80bps",
-      "target_date": "2027 Q1",
-      "call_date": "2026-09-11",
-      "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "US IG",
-      "type": "Spread",
-      "call": "78bps",
-      "target_date": "2027 Q2",
-      "call_date": "2026-09-11",
-      "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
+      "status": "Latest",
+      "note": "GS 2026Q4 USD IG Spread forecast。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-18/index.html"
     },
     {
       "broker": "GS",
@@ -347,11 +323,11 @@
       "type": "Gross Supply",
       "call": "$2.3Tn",
       "target_date": "2026",
-      "call_date": "2026-09-11",
+      "call_date": "2026-09-18",
       "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS 2026 gross issuance forecast。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
+      "status": "Latest",
+      "note": "2026年USD IG gross issuance forecast。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-18/index.html"
     },
     {
       "broker": "GS",
@@ -362,7 +338,19 @@
       "call_date": "2026-09-18",
       "as_of_date": "2026-09-18",
       "status": "Latest",
-      "note": "GS的$420Bn為全球direct hyperscaler gross debt issuance，不含約$300Bn資料中心project finance；GS預期其中65-75%將在USD IG市場發行。",
+      "note": "全球direct Hyperscaler IG gross issuance，不含約$300Bn data center與chip project finance。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-18/index.html"
+    },
+    {
+      "broker": "GS",
+      "asset": "US IG",
+      "type": "Hyperscaler Issuance",
+      "call": "$250Bn global direct",
+      "target_date": "2026",
+      "call_date": "2026-09-18",
+      "as_of_date": "2026-09-18",
+      "status": "Latest",
+      "note": "2026年全球direct Hyperscaler IG gross issuance forecast。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-18/index.html"
     },
     {
@@ -1026,6 +1014,18 @@
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-08-07/index.html"
     },
     {
+      "broker": "Barclays",
+      "asset": "US HY",
+      "type": "Overweight Sector",
+      "call": "Other Industrials",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
+      "as_of_date": "2026-09-18",
+      "status": "Latest",
+      "note": "US PEAD sector implication偏好HY Other Industrials。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-09-18/index.html"
+    },
+    {
       "broker": "BofA",
       "asset": "US HY",
       "type": "Gross Supply",
@@ -1113,49 +1113,13 @@
       "broker": "GS",
       "asset": "US HY",
       "type": "Spread",
-      "call": "305bps",
-      "target_date": "2026 Q3",
-      "call_date": "2026-09-11",
-      "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "US HY",
-      "type": "Spread",
       "call": "295bps",
-      "target_date": "2026 Q4",
-      "call_date": "2026-09-11",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
       "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "US HY",
-      "type": "Spread",
-      "call": "290bps",
-      "target_date": "2027 Q1",
-      "call_date": "2026-09-11",
-      "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "US HY",
-      "type": "Spread",
-      "call": "280bps",
-      "target_date": "2027 Q2",
-      "call_date": "2026-09-11",
-      "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
+      "status": "Latest",
+      "note": "GS 2026Q4 USD HY Spread forecast。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-18/index.html"
     },
     {
       "broker": "GS",
@@ -1163,11 +1127,35 @@
       "type": "Gross Supply",
       "call": "$400Bn",
       "target_date": "2026",
-      "call_date": "2026-09-11",
+      "call_date": "2026-09-18",
       "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS 2026 gross issuance forecast。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
+      "status": "Latest",
+      "note": "2026年USD HY gross issuance forecast。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-18/index.html"
+    },
+    {
+      "broker": "JPM",
+      "asset": "US HY",
+      "type": "Spread",
+      "call": "475bps",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
+      "as_of_date": "2026-09-18",
+      "status": "Latest",
+      "note": "Leveraged Loan年底Spread target，由525bps下調。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-high-yield-and-leveraged-loan-2026-09-18/index.html"
+    },
+    {
+      "broker": "JPM",
+      "asset": "US HY",
+      "type": "Spread",
+      "call": "315bps",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
+      "as_of_date": "2026-09-18",
+      "status": "Latest",
+      "note": "US HY bond年底Spread target，由350bps下調。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-high-yield-and-leveraged-loan-2026-09-18/index.html"
     },
     {
       "broker": "BNP",
@@ -1206,6 +1194,42 @@
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bnp-credit-2026-09-02/index.html"
     },
     {
+      "broker": "Barclays",
+      "asset": "EUR IG",
+      "type": "Overweight Sector",
+      "call": "Communications",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
+      "as_of_date": "2026-09-18",
+      "status": "Latest",
+      "note": "PEAD framework顯示Communications三個月預期return與正向breadth最佳。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-09-18/index.html"
+    },
+    {
+      "broker": "Barclays",
+      "asset": "EUR IG",
+      "type": "Underweight Sector",
+      "call": "Transportation",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
+      "as_of_date": "2026-09-18",
+      "status": "Latest",
+      "note": "PEAD framework顯示Transportation三個月預期return偏弱。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-09-18/index.html"
+    },
+    {
+      "broker": "Barclays",
+      "asset": "EUR IG",
+      "type": "Underweight Sector",
+      "call": "Electric",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
+      "as_of_date": "2026-09-18",
+      "status": "Latest",
+      "note": "PEAD framework中Electric連續第二季為最弱Sector。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-09-18/index.html"
+    },
+    {
       "broker": "BofA",
       "asset": "EUR IG",
       "type": "Gross Supply",
@@ -1221,49 +1245,13 @@
       "broker": "GS",
       "asset": "EUR IG",
       "type": "Spread",
-      "call": "91bps",
-      "target_date": "2026 Q3",
-      "call_date": "2026-09-11",
-      "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "EUR IG",
-      "type": "Spread",
       "call": "88bps",
-      "target_date": "2026 Q4",
-      "call_date": "2026-09-11",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
       "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "EUR IG",
-      "type": "Spread",
-      "call": "86bps",
-      "target_date": "2027 Q1",
-      "call_date": "2026-09-11",
-      "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "EUR IG",
-      "type": "Spread",
-      "call": "84bps",
-      "target_date": "2027 Q2",
-      "call_date": "2026-09-11",
-      "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
+      "status": "Latest",
+      "note": "GS 2026Q4 EUR IG Spread forecast。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-18/index.html"
     },
     {
       "broker": "GS",
@@ -1271,11 +1259,11 @@
       "type": "Gross Supply",
       "call": "€850Bn",
       "target_date": "2026",
-      "call_date": "2026-09-11",
+      "call_date": "2026-09-18",
       "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS 2026 gross issuance forecast。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
+      "status": "Latest",
+      "note": "2026年EUR IG gross issuance forecast。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-18/index.html"
     },
     {
       "broker": "JPM",
@@ -1295,11 +1283,11 @@
       "type": "Gross Supply",
       "call": "€730Bn",
       "target_date": "2026",
-      "call_date": "2026-09-04",
+      "call_date": "2026-09-18",
       "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "JPM 2026 EUR IG gross issuance house target。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-09-04/index.html"
+      "status": "Latest",
+      "note": "JPM 2026年EUR IG gross issuance target。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-09-18/index.html"
     },
     {
       "broker": "JPM",
@@ -1374,52 +1362,76 @@
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bnp-credit-2026-09-02/index.html"
     },
     {
-      "broker": "GS",
+      "broker": "Barclays",
       "asset": "EUR HY",
-      "type": "Spread",
-      "call": "320bps",
-      "target_date": "2026 Q3",
-      "call_date": "2026-09-11",
+      "type": "Overweight Sector",
+      "call": "Other Industrials",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
       "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
+      "status": "Latest",
+      "note": "PEAD framework顯示Other Industrials三個月預期return最高。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-09-18/index.html"
+    },
+    {
+      "broker": "Barclays",
+      "asset": "EUR HY",
+      "type": "Overweight Sector",
+      "call": "Consumer Non-Cyclical",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
+      "as_of_date": "2026-09-18",
+      "status": "Latest",
+      "note": "PEAD framework顯示Consumer Non-Cyclical三個月預期return與breadth偏強。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-09-18/index.html"
+    },
+    {
+      "broker": "Barclays",
+      "asset": "EUR HY",
+      "type": "Underweight Sector",
+      "call": "Transportation",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
+      "as_of_date": "2026-09-18",
+      "status": "Latest",
+      "note": "PEAD framework顯示Transportation三個月預期return偏弱。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-09-18/index.html"
+    },
+    {
+      "broker": "Barclays",
+      "asset": "EUR HY",
+      "type": "Underweight Sector",
+      "call": "Electric",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
+      "as_of_date": "2026-09-18",
+      "status": "Latest",
+      "note": "PEAD framework顯示Electric三個月預期return偏弱。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-09-18/index.html"
+    },
+    {
+      "broker": "Barclays",
+      "asset": "EUR HY",
+      "type": "Underweight Sector",
+      "call": "Capital Goods",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
+      "as_of_date": "2026-09-18",
+      "status": "Latest",
+      "note": "PEAD framework顯示Capital Goods預期return及breadth均偏弱。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-09-18/index.html"
     },
     {
       "broker": "GS",
       "asset": "EUR HY",
       "type": "Spread",
       "call": "315bps",
-      "target_date": "2026 Q4",
-      "call_date": "2026-09-11",
+      "target_date": "2026-12",
+      "call_date": "2026-09-18",
       "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "EUR HY",
-      "type": "Spread",
-      "call": "310bps",
-      "target_date": "2027 Q1",
-      "call_date": "2026-09-11",
-      "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "EUR HY",
-      "type": "Spread",
-      "call": "305bps",
-      "target_date": "2027 Q2",
-      "call_date": "2026-09-11",
-      "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS Spread forecast dashboard。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
+      "status": "Latest",
+      "note": "GS 2026Q4 EUR HY Spread forecast。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-18/index.html"
     },
     {
       "broker": "GS",
@@ -1427,11 +1439,11 @@
       "type": "Gross Supply",
       "call": "€125Bn",
       "target_date": "2026",
-      "call_date": "2026-09-11",
+      "call_date": "2026-09-18",
       "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "GS 2026 gross issuance forecast。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-11/index.html"
+      "status": "Latest",
+      "note": "2026年EUR HY gross issuance forecast。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-18/index.html"
     },
     {
       "broker": "JPM",
@@ -1451,11 +1463,11 @@
       "type": "Gross Supply",
       "call": "€140Bn",
       "target_date": "2026",
-      "call_date": "2026-09-04",
+      "call_date": "2026-09-18",
       "as_of_date": "2026-09-18",
-      "status": "Carried",
-      "note": "JPM 2026 EUR HY gross issuance house target。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-09-04/index.html"
+      "status": "Latest",
+      "note": "JPM 2026年EUR HY gross issuance target，排除Banks與Insurers。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-09-18/index.html"
     }
   ]
 }
