@@ -77,8 +77,8 @@ class GeneratedSiteTests(unittest.TestCase):
             self.assertTrue((PUBLIC_DIR / "reports" / slug / "index.html").is_file())
             end = publish.target_date_end(item["target_date"])
             self.assertTrue(end is None or end >= publish.date.today())
-        sectors = [item["call"] for item in self.forecast["calls"] if item["broker"] == "TD" and item["asset"] == "US IG" and item["type"] == "Overweight Sector"]
-        self.assertTrue({"Utilities", "Life Insurance", "Consumer Non-Cyclicals"}.issubset(sectors))
+        sectors = [item["call"] for item in self.forecast["calls"] if item["broker"] == "BofA" and item["asset"] == "US IG" and item["type"] == "Overweight Sector"]
+        self.assertTrue({"Utilities", "Pipelines", "Energy", "Telecom"}.issubset(sectors))
         self.assertNotIn("$200Bn per year", [item["call"] for item in self.forecast["calls"]])
 
     def test_rv_is_external_and_legacy_path_redirects(self) -> None:
