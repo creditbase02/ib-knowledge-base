@@ -453,12 +453,33 @@ def attach_call_links(
                         ]
                     if len(candidates) > 1:
                         segment = normalize_call_text(token["segment"])
+                        qualifiers = {
+                            normalize_call_text(value)
+                            for value in re.findall(r"[（(]([^（）()]*)[）)]", token["segment"])
+                        }
                         target_matches = [
                             item
                             for item in candidates
                             if item.get("target_date")
-                            and normalize_call_text(item["target_date"]) in segment
+                            and normalize_call_text(item["target_date"]) in qualifiers
                         ]
+                        if not target_matches:
+                            target_matches = [
+                                item
+                                for item in candidates
+                                if item.get("target_date")
+                                and normalize_call_text(item["target_date"]) in segment
+                            ]
+                            if len(target_matches) > 1:
+                                longest = max(
+                                    len(normalize_call_text(item["target_date"]))
+                                    for item in target_matches
+                                )
+                                target_matches = [
+                                    item
+                                    for item in target_matches
+                                    if len(normalize_call_text(item["target_date"])) == longest
+                                ]
                         if target_matches:
                             candidates = target_matches
                     if len(candidates) != 1:
