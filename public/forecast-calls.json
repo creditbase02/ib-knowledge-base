@@ -920,18 +920,6 @@
     {
       "broker": "TD",
       "asset": "US IG",
-      "type": "Gross Supply",
-      "call": "$140-145Bn",
-      "target_date": "2026年8月",
-      "call_date": "2026-08-03",
-      "as_of_date": "2026-09-25",
-      "status": "Carried",
-      "note": "TD對8月US IG發行量的估計。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-08-03/index.html"
-    },
-    {
-      "broker": "TD",
-      "asset": "US IG",
       "type": "Overweight Sector",
       "call": "Utilities",
       "target_date": "",
