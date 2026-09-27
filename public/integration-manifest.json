@@ -3,16 +3,16 @@
   "site_id": "ib-knowledge-base",
   "production_url": "https://creditbase02.github.io/ib-knowledge-base/",
   "commit_sha": "PENDING_CI",
-  "built_at": "2026-09-27T21:09:09+08:00",
+  "built_at": "2026-09-27T22:44:58+08:00",
   "content_as_of": "2026-09-25",
   "validation_status": "PASS",
-  "content_sha256": "12fdaf2b19e68a4ad2c9387a3bd27a21b5ad61d25704acfb920dd7ba7798cf58",
+  "content_sha256": "292ae836130b440974cf32a76a04df9180b772236e06a37f9edcbb9944967c28",
   "datasets": {
     "forecast": {
       "asset": "forecast-calls.json",
       "schema_version": 1,
       "content_as_of": "2026-09-25",
-      "sha256": "8e32a6329d47191ab6300064f2ba1fcc1fe057934248d4a899092b336e40a793"
+      "sha256": "fa7167e772ff59b87d61534ab4ad65f31b3e2bb95902068704927451d51389fd"
     }
   },
   "peer": {
