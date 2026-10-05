@@ -404,18 +404,6 @@
     {
       "broker": "JPM",
       "asset": "US IG",
-      "type": "Spread",
-      "call": "95bps",
-      "target_date": "2026",
-      "call_date": "2026-08-21",
-      "as_of_date": "2026-10-02",
-      "status": "Carried",
-      "note": "JPM的現行北美公司信用Spread目標。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
-    },
-    {
-      "broker": "JPM",
-      "asset": "US IG",
       "type": "Gross Supply",
       "call": "$2.0Tn",
       "target_date": "2026",
