@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "built_at": "2026-10-05T14:13:58+08:00",
+  "built_at": "2026-10-08T16:15:26+08:00",
   "visibility": "public-sanitized",
-  "report_count": 99,
+  "report_count": 100,
   "weekly_count": 11,
   "forecast_included": true,
-  "content_sha256": "b57b9af80ea85f07528398834eea5df2ddde776476bc8a5ec8b8ab91d9d3e8f2",
+  "content_sha256": "974de690781241f4f6c4de810dd9241291dd4ae142508088ed4c1bbfdae926d7",
   "validation": {
     "status": "PASS"
   }
