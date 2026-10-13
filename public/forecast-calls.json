@@ -456,8 +456,8 @@
       "call": "85bps",
       "target_date": "2026-12",
       "call_date": "2026-10-02",
-      "as_of_date": "2026-10-08",
-      "status": "Carried",
+      "as_of_date": "2026-10-02",
+      "status": "Latest",
       "note": "JPM將2026年底JULI Spread target由95bps調整為85bps。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-02/index.html"
     },
@@ -468,7 +468,7 @@
       "call": "$2.0Tn",
       "target_date": "2026",
       "call_date": "2026-09-11",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "JPM revised 2026 HG gross issuance forecast。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-09-11/index.html"
@@ -480,7 +480,7 @@
       "call": "Yankee Banks",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -492,7 +492,7 @@
       "call": "US Banks",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -504,7 +504,7 @@
       "call": "UK Holdco",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -516,7 +516,7 @@
       "call": "Tobacco",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -528,7 +528,7 @@
       "call": "Metals/Mining",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -540,7 +540,7 @@
       "call": "Large US Banks - Sen HoldCos",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -552,7 +552,7 @@
       "call": "Large Cap Pharma",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -564,7 +564,7 @@
       "call": "Japanese Banks",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -576,7 +576,7 @@
       "call": "Healthcare Services",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -588,7 +588,7 @@
       "call": "Healthcare Pharmaceuticals",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -600,7 +600,7 @@
       "call": "Finance Companies",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -612,7 +612,7 @@
       "call": "Euro Senior",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -624,7 +624,7 @@
       "call": "Euro Sen Non Pref",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -636,7 +636,7 @@
       "call": "Australian/NZ Banks",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -648,7 +648,7 @@
       "call": "Aerospace/Defense",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -660,7 +660,7 @@
       "call": "Yankee Telecoms",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -672,7 +672,7 @@
       "call": "Retail",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -684,7 +684,7 @@
       "call": "Non-Food Retail",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -696,7 +696,7 @@
       "call": "Media Entertainment",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -708,7 +708,7 @@
       "call": "Food/Drug Retail",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -720,7 +720,7 @@
       "call": "Food/Beverages",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -732,7 +732,7 @@
       "call": "Energy Services",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -744,7 +744,7 @@
       "call": "Diversified Media",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -756,7 +756,7 @@
       "call": "Consumer Products",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -768,7 +768,7 @@
       "call": "Consumer",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -780,7 +780,7 @@
       "call": "Chemicals",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -792,7 +792,7 @@
       "call": "Canadian Banks",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -804,7 +804,7 @@
       "call": "Cable/Satellite",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -816,7 +816,7 @@
       "call": "Automotive Suppliers",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -828,7 +828,7 @@
       "call": "Automotive Manufacturing",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -840,7 +840,7 @@
       "call": "Automotive Finance Companies",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -852,7 +852,7 @@
       "call": "Automotive",
       "target_date": "",
       "call_date": "2026-08-21",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "p.18 analyst recommendations refreshed through 2026-08-20。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-21/index.html"
@@ -864,7 +864,7 @@
       "call": "$230Bn",
       "target_date": "2026",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "JPM對2026年hyperscaler gross issuance的年度預估；年初至今為$182Bn。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-09-18/index.html"
@@ -876,7 +876,7 @@
       "call": "$50Bn",
       "target_date": "2026年末前",
       "call_date": "2026-08-07",
-      "as_of_date": "2026-10-08",
+      "as_of_date": "2026-10-02",
       "status": "Carried",
       "note": "JPM TMT團隊估計超大規模雲端業者今年餘下發行量。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-07/index.html"
