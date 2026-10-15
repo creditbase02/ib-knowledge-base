@@ -213,18 +213,6 @@
       "broker": "BofA",
       "asset": "US IG",
       "type": "Gross Supply",
-      "call": "$350Bn",
-      "target_date": "2026",
-      "call_date": "2026-10-09",
-      "as_of_date": "2026-10-09",
-      "status": "Latest",
-      "note": "BofA預估2026全年M&A-related US IG gross supply為$350Bn。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-09/index.html"
-    },
-    {
-      "broker": "BofA",
-      "asset": "US IG",
-      "type": "Gross Supply",
       "call": "$2.1Tn",
       "target_date": "2026",
       "call_date": "2026-09-25",
