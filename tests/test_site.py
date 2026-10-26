@@ -78,7 +78,13 @@ class GeneratedSiteTests(unittest.TestCase):
             end = publish.target_date_end(item["target_date"])
             self.assertTrue(end is None or end >= publish.date.today())
         sectors = [item["call"] for item in self.forecast["calls"] if item["broker"] == "BofA" and item["asset"] == "US IG" and item["type"] == "Overweight Sector"]
-        self.assertTrue({"Utilities", "Pipelines", "Energy", "Telecom"}.issubset(sectors))
+        self.assertTrue({"Utilities", "Pipelines", "Energy"}.issubset(sectors))
+        # BofA's Oct-23 sector table changes Telecom from OW to UW.
+        telecom = [item for item in self.forecast["calls"] if item["broker"] == "BofA" and item["asset"] == "US IG" and item["call"] == "Telecom"]
+        self.assertEqual(len(telecom), 1)
+        self.assertEqual(telecom[0]["type"], "Underweight Sector")
+        self.assertEqual(telecom[0]["call_date"], "2026-10-23")
+        self.assertEqual(telecom[0]["status"], "Latest")
         self.assertNotIn("$200Bn per year", [item["call"] for item in self.forecast["calls"]])
 
     def test_rv_is_external_and_legacy_path_redirects(self) -> None:
