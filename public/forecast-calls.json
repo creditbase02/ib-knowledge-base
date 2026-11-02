@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "site_id": "ib-knowledge-base",
-  "content_as_of": "2026-10-23",
+  "content_as_of": "2026-10-30",
   "reference_year": 2026,
   "source_url": "https://creditbase02.github.io/ib-knowledge-base/forecast/",
   "calls": [
@@ -144,10 +144,34 @@
       "call": "range-bound",
       "target_date": "near term",
       "call_date": "2026-08-07",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "Supportive fundamentals and no broad AI-funding spillover, but tight valuations limit further tightening.",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-08-07/index.html"
+    },
+    {
+      "broker": "Barclays",
+      "asset": "US IG",
+      "type": "Gross Supply",
+      "call": "$2.1Tn",
+      "target_date": "2027",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "2027總預估；僅指數合格IG+144A，不同於bottom-up $2.042Tn及模型。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-10-30/index.html"
+    },
+    {
+      "broker": "Barclays",
+      "asset": "US IG",
+      "type": "Gross Supply",
+      "call": "$1.9Tn",
+      "target_date": "2026",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "2026預估；僅指數合格IG+144A。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-10-30/index.html"
     },
     {
       "broker": "Barclays",
@@ -156,7 +180,7 @@
       "call": "Basics",
       "target_date": "2026-12",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "US PEAD sector implication偏好IG Basics。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-09-18/index.html"
@@ -165,10 +189,22 @@
       "broker": "Barclays",
       "asset": "US IG",
       "type": "Hyperscaler Issuance",
+      "call": "$260.25Bn",
+      "target_date": "2027",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "TMT細分表Hypers一列，含AMZN；美元指數供給。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-10-30/index.html"
+    },
+    {
+      "broker": "Barclays",
+      "asset": "US IG",
+      "type": "Hyperscaler Issuance",
       "call": "Additional Microsoft and Meta issuance; potential Amazon issuance",
       "target_date": "H2 2026",
       "call_date": "2026-08-07",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "Barclays expects additional H2 issuance from Microsoft and Meta, with potential issuance from Amazon.",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-08-07/index.html"
@@ -180,7 +216,7 @@
       "call": "85bps",
       "target_date": "2026-12",
       "call_date": "2026-10-16",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "BofA將2026年底US IG Spread預估調至約85bps。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-16/index.html"
@@ -192,7 +228,7 @@
       "call": "65bps",
       "target_date": "2026",
       "call_date": "2026-09-11",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "BofA 2026 US IG Spread house target。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-09-11/index.html"
@@ -201,25 +237,25 @@
       "broker": "BofA",
       "asset": "US IG",
       "type": "Gross Supply",
-      "call": "$25-40Bn",
-      "target_date": "2026-10-26/2026-10-30",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call": "$30-40Bn",
+      "target_date": "2026-11-02/2026-11-06",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "下週供給預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "選舉及利率、Spread波動限制發行。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
       "asset": "US IG",
       "type": "Gross Supply",
-      "call": "$110Bn",
-      "target_date": "2026-10",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call": "$175Bn",
+      "target_date": "2026-11",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "10月全月供給預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "風險偏上；AI及M&A財報後窗口、10月backlog及較低利率。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -227,11 +263,11 @@
       "type": "Gross Supply",
       "call": "$2.1Tn",
       "target_date": "2026",
-      "call_date": "2026-09-25",
-      "as_of_date": "2026-10-23",
-      "status": "Carried",
-      "note": "BofA對2026年US IG全年供給的預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-09-25/index.html"
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "11月季節性基準採用的全年預估。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -239,11 +275,11 @@
       "type": "Overweight Sector",
       "call": "Utilities",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -251,11 +287,11 @@
       "type": "Overweight Sector",
       "call": "Technology",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -263,11 +299,11 @@
       "type": "Overweight Sector",
       "call": "REITs",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -275,11 +311,11 @@
       "type": "Overweight Sector",
       "call": "Railroads",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -287,11 +323,11 @@
       "type": "Overweight Sector",
       "call": "Pipelines",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -299,11 +335,11 @@
       "type": "Overweight Sector",
       "call": "Oil & Gas",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -311,11 +347,11 @@
       "type": "Overweight Sector",
       "call": "Media & Entertainment",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -323,11 +359,11 @@
       "type": "Overweight Sector",
       "call": "Life Insurance",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -335,11 +371,11 @@
       "type": "Overweight Sector",
       "call": "Insurance",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Key views明確偏好Insurance。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -347,11 +383,11 @@
       "type": "Overweight Sector",
       "call": "Energy",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -359,11 +395,11 @@
       "type": "Overweight Sector",
       "call": "Banks/Brokers",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -371,11 +407,11 @@
       "type": "Overweight Sector",
       "call": "Automobiles",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -383,11 +419,11 @@
       "type": "Overweight Sector",
       "call": "Hyperscalers",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -395,11 +431,11 @@
       "type": "Underweight Sector",
       "call": "Telecom",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -407,11 +443,11 @@
       "type": "Underweight Sector",
       "call": "Retail",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -419,11 +455,11 @@
       "type": "Underweight Sector",
       "call": "Non-Discounters",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -431,11 +467,11 @@
       "type": "Underweight Sector",
       "call": "Health Care",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -443,11 +479,11 @@
       "type": "Underweight Sector",
       "call": "Food, Bev, & Bottling",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -455,11 +491,11 @@
       "type": "Underweight Sector",
       "call": "Discounters",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -467,11 +503,11 @@
       "type": "Underweight Sector",
       "call": "Consumer Products",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector views表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -480,7 +516,7 @@
       "call": "Food & Beverage",
       "target_date": "",
       "call_date": "2026-09-25",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "BofA以Underweight Food & Beverage對沖M&A供給風險。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-09-25/index.html"
@@ -489,10 +525,22 @@
       "broker": "BofA",
       "asset": "US IG",
       "type": "Hyperscaler Issuance",
+      "call": "$320Bn",
+      "target_date": "2026-10-30/2027-12-31",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "目前至2027年底企業債融資需求；已更新MSFT交易與ORCL指引。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-10-30/index.html"
+    },
+    {
+      "broker": "BofA",
+      "asset": "US IG",
+      "type": "Hyperscaler Issuance",
       "call": "-20%",
       "target_date": "2027",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "BofA預期2027年hyperscaler supply較2026年減少20%。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-09-18/index.html"
@@ -504,7 +552,7 @@
       "call": "$330Bn",
       "target_date": "2026",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "BofA TMT analyst對2026年hyperscaler supply的最新預估。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-ig-credit-strategist-2026-09-18/index.html"
@@ -513,25 +561,13 @@
       "broker": "GS",
       "asset": "US IG",
       "type": "Spread",
-      "call": ">93bps",
-      "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
-      "status": "Latest",
-      "note": "近端下行情境；美元預期適度超過3月高點，歐元參考2025年4月水準。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "US IG",
-      "type": "Spread",
       "call": "82bps",
       "target_date": "2026-12",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard基礎情境。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -539,11 +575,11 @@
       "type": "Spread",
       "call": "80bps",
       "target_date": "2027-03",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard基礎情境。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -551,10 +587,22 @@
       "type": "Spread",
       "call": "78bps",
       "target_date": "2027-06",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard基礎情境。",
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
+    },
+    {
+      "broker": "GS",
+      "asset": "US IG",
+      "type": "Spread",
+      "call": ">93bps",
+      "target_date": "",
+      "call_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
+      "status": "Carried",
+      "note": "近端下行情境；美元預期適度超過3月高點，歐元參考2025年4月水準。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
     },
     {
@@ -563,11 +611,11 @@
       "type": "Gross Supply",
       "call": "$2.4Tn",
       "target_date": "2027",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard年度發行預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -575,11 +623,47 @@
       "type": "Gross Supply",
       "call": "$2.3Tn",
       "target_date": "2026",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard年度發行預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
+    },
+    {
+      "broker": "GS",
+      "asset": "US IG",
+      "type": "Overweight Sector",
+      "call": "Utilities",
+      "target_date": "",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "建議增加與AI Spread相關較低的Sector作防禦配置。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
+    },
+    {
+      "broker": "GS",
+      "asset": "US IG",
+      "type": "Overweight Sector",
+      "call": "Healthcare/Pharma",
+      "target_date": "",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "建議增加與AI Spread相關較低的Sector作防禦配置。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
+    },
+    {
+      "broker": "GS",
+      "asset": "US IG",
+      "type": "Overweight Sector",
+      "call": "Financials",
+      "target_date": "",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "建議增加與AI Spread相關較低的Sector作防禦配置。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -588,7 +672,7 @@
       "call": "Technology",
       "target_date": "",
       "call_date": "2026-10-16",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "GS維持underweight US IG Technology。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-16/index.html"
@@ -600,7 +684,7 @@
       "call": "$420Bn global direct, 65-75%預期USD IG",
       "target_date": "2027",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "全球direct Hyperscaler IG gross issuance，不含約$300Bn data center與chip project finance。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-18/index.html"
@@ -612,7 +696,7 @@
       "call": "$250Bn global direct",
       "target_date": "2026",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "2026年全球direct Hyperscaler IG gross issuance forecast。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-09-18/index.html"
@@ -624,7 +708,7 @@
       "call": "85bps",
       "target_date": "2026-12",
       "call_date": "2026-10-02",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "JPM將2026年底JULI Spread target由95bps調整為85bps。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-02/index.html"
@@ -636,8 +720,8 @@
       "call": "$2.0Tn",
       "target_date": "2026",
       "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
-      "status": "Latest",
+      "as_of_date": "2026-10-30",
+      "status": "Carried",
       "note": "本期明確沿用全年發行預估。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
     },
@@ -647,11 +731,11 @@
       "type": "Overweight Sector",
       "call": "Yankee Banks",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -659,11 +743,11 @@
       "type": "Overweight Sector",
       "call": "US Banks",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -671,11 +755,11 @@
       "type": "Overweight Sector",
       "call": "UK Holdco",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -683,11 +767,11 @@
       "type": "Overweight Sector",
       "call": "Tobacco",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -695,11 +779,11 @@
       "type": "Overweight Sector",
       "call": "Metals/Mining",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -707,11 +791,11 @@
       "type": "Overweight Sector",
       "call": "Large US Banks - Sen HoldCos",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -719,11 +803,11 @@
       "type": "Overweight Sector",
       "call": "Large Cap Pharma",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -731,11 +815,11 @@
       "type": "Overweight Sector",
       "call": "Japanese Banks",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -743,11 +827,11 @@
       "type": "Overweight Sector",
       "call": "Healthcare Services",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -755,11 +839,11 @@
       "type": "Overweight Sector",
       "call": "Healthcare Pharmaceuticals",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -767,11 +851,11 @@
       "type": "Overweight Sector",
       "call": "Finance Companies",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -779,11 +863,11 @@
       "type": "Overweight Sector",
       "call": "Euro Senior",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -791,23 +875,23 @@
       "type": "Overweight Sector",
       "call": "Euro Sen Non Pref",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
       "asset": "US IG",
       "type": "Overweight Sector",
-      "call": "Australian/NZ Banks",
+      "call": "Australia/NZ Banks",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -815,11 +899,11 @@
       "type": "Overweight Sector",
       "call": "Aerospace/Defense",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -828,7 +912,7 @@
       "call": "Front-end Financials",
       "target_date": "",
       "call_date": "2026-10-16",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "JPM認為front-end Financials是近期防禦性配置。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-16/index.html"
@@ -839,11 +923,11 @@
       "type": "Underweight Sector",
       "call": "Yankee Telecoms",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -851,11 +935,11 @@
       "type": "Underweight Sector",
       "call": "Retail",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -863,11 +947,11 @@
       "type": "Underweight Sector",
       "call": "Non-Food Retail",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -875,11 +959,11 @@
       "type": "Underweight Sector",
       "call": "Media Entertainment",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -887,11 +971,11 @@
       "type": "Underweight Sector",
       "call": "Food/Drug Retail",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -899,11 +983,11 @@
       "type": "Underweight Sector",
       "call": "Food/Beverages",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -911,11 +995,11 @@
       "type": "Underweight Sector",
       "call": "Energy Services",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -923,11 +1007,11 @@
       "type": "Underweight Sector",
       "call": "Diversified Media",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -935,11 +1019,11 @@
       "type": "Underweight Sector",
       "call": "Consumer Products",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -947,11 +1031,11 @@
       "type": "Underweight Sector",
       "call": "Consumer",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -959,11 +1043,11 @@
       "type": "Underweight Sector",
       "call": "Chemicals",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -971,11 +1055,11 @@
       "type": "Underweight Sector",
       "call": "Canadian Banks",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -983,11 +1067,11 @@
       "type": "Underweight Sector",
       "call": "Cable/Satellite",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -995,11 +1079,11 @@
       "type": "Underweight Sector",
       "call": "Automotive Suppliers",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -1007,11 +1091,11 @@
       "type": "Underweight Sector",
       "call": "Automotive Manufacturing",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -1019,11 +1103,11 @@
       "type": "Underweight Sector",
       "call": "Automotive Finance Companies",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -1031,11 +1115,11 @@
       "type": "Underweight Sector",
       "call": "Automotive",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "本期Sector Recommendations表。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -1044,7 +1128,7 @@
       "call": "$230Bn",
       "target_date": "2026",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "JPM對2026年hyperscaler gross issuance的年度預估；年初至今為$182Bn。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-09-18/index.html"
@@ -1056,7 +1140,7 @@
       "call": "$50Bn",
       "target_date": "2026年末前",
       "call_date": "2026-08-07",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "JPM TMT團隊估計超大規模雲端業者今年餘下發行量。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-credit-market-outlook-and-strategy-2026-08-07/index.html"
@@ -1066,12 +1150,12 @@
       "asset": "US IG",
       "type": "Spread",
       "call": "95bps",
-      "target_date": "2027-04-23",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "target_date": "2027-04-30",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "資料頁明列六個月目標。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-10-23/index.html"
+      "note": "報告日加六個月。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "TD",
@@ -1080,7 +1164,7 @@
       "call": "90-100bps",
       "target_date": "",
       "call_date": "2026-10-16",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "TD重申US IG Spread將升至90–100bps；本期未重述日期。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-10-16/index.html"
@@ -1092,7 +1176,7 @@
       "call": "95bps",
       "target_date": "2027-03-11",
       "call_date": "2026-09-11",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "TD Securities US IG 6m Spread target。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-09-11/index.html"
@@ -1104,7 +1188,7 @@
       "call": "Steeper spread curve",
       "target_date": "",
       "call_date": "2026-08-29",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "TD最高信心的信用觀點，特別因預期後端供給偏重。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-08-29/index.html"
@@ -1116,7 +1200,7 @@
       "call": "wider",
       "target_date": "before Labor Day",
       "call_date": "2026-08-14",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "TD expects widening to reduce elevated dealer inventories before the September calendar.",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-08-14/index.html"
@@ -1128,7 +1212,7 @@
       "call": "tighter",
       "target_date": "2026年9月初",
       "call_date": "2026-08-07",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "TD指出歷史上Spread在9月初通常重新tighten。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-08-07/index.html"
@@ -1137,13 +1221,13 @@
       "broker": "TD",
       "asset": "US IG",
       "type": "Gross Supply",
-      "call": "$45-50Bn",
-      "target_date": "2026-10-26/2026-10-30",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call": "$50-60Bn",
+      "target_date": "2026-11-02/2026-11-06",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "下週US IG發行預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-10-23/index.html"
+      "note": "假設有更多AI相關發行。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "TD",
@@ -1151,11 +1235,35 @@
       "type": "Gross Supply",
       "call": "$2.2Tn",
       "target_date": "2026",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "全年供給預估，亦用於季節性run rate。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-10-23/index.html"
+      "note": "季節性run rate使用的全年供給預估。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-10-30/index.html"
+    },
+    {
+      "broker": "TD",
+      "asset": "US IG",
+      "type": "Overweight Sector",
+      "call": "Hyperscalers vs Chipmakers",
+      "target_date": "",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "等風險long hyperscalers、short chipmakers；不是市場方向性押注。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-10-30/index.html"
+    },
+    {
+      "broker": "TD",
+      "asset": "US IG",
+      "type": "Overweight Sector",
+      "call": "Energy",
+      "target_date": "",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "短期避險，即使Spread很tight。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "TD",
@@ -1164,7 +1272,7 @@
       "call": "Hyperscalers",
       "target_date": "",
       "call_date": "2026-10-11",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "TD風險調整後偏好做多hyperscaler及相關公司。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-10-11/index.html"
@@ -1176,7 +1284,7 @@
       "call": "Utilities",
       "target_date": "",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "TD偏好Utilities。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-09-18/index.html"
@@ -1188,7 +1296,7 @@
       "call": "Life Insurance",
       "target_date": "",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "TD在BDC、corporate hybrids及Life Insurance之間偏好Life Insurance。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-09-18/index.html"
@@ -1200,7 +1308,7 @@
       "call": "Consumer Non-Cyclicals",
       "target_date": "",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "TD偏好Consumer Non-Cyclicals相對Consumer Cyclicals。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-09-18/index.html"
@@ -1212,7 +1320,7 @@
       "call": "Telecom",
       "target_date": "",
       "call_date": "2026-10-11",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "Starlink技術優勢挑戰legacy business，Telecom失去TD青睞。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-10-11/index.html"
@@ -1224,7 +1332,7 @@
       "call": "Chipmakers",
       "target_date": "",
       "call_date": "2026-10-11",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "TD相對做空承諾seller financing的chipmaker。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/td-corporate-credit-strategist-2026-10-11/index.html"
@@ -1332,7 +1440,7 @@
       "call": "range-bound",
       "target_date": "near term",
       "call_date": "2026-08-07",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "Supportive fundamentals and no broad AI-funding spillover, but tight valuations limit further tightening.",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-08-07/index.html"
@@ -1341,10 +1449,22 @@
       "broker": "Barclays",
       "asset": "US HY",
       "type": "Gross Supply",
+      "call": "$380-420Bn",
+      "target_date": "2027",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "HY供給專題預估。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-10-30/index.html"
+    },
+    {
+      "broker": "Barclays",
+      "asset": "US HY",
+      "type": "Gross Supply",
       "call": "$273Bn data-center bond issuance",
       "target_date": "2026-2030",
       "call_date": "2026-08-07",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "Barclays supply-model estimate assuming 40% of data-center debt financing is placed in US HY.",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-08-07/index.html"
@@ -1356,7 +1476,7 @@
       "call": "Other Industrials",
       "target_date": "2026-12",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "US PEAD sector implication偏好HY Other Industrials。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/barclays-us-credit-alpha-2026-09-18/index.html"
@@ -1365,25 +1485,13 @@
       "broker": "BofA",
       "asset": "US HY",
       "type": "Gross Supply",
-      "call": "$31.5Bn",
+      "call": "$31.523Bn",
       "target_date": "2026-11",
-      "call_date": "2026-10-22",
-      "as_of_date": "2026-10-22",
+      "call_date": "2026-10-29",
+      "as_of_date": "2026-10-29",
       "status": "Latest",
-      "note": "供需表11月發行預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-10-22/index.html"
-    },
-    {
-      "broker": "BofA",
-      "asset": "US HY",
-      "type": "Gross Supply",
-      "call": "$17.1Bn",
-      "target_date": "2026-10",
-      "call_date": "2026-10-22",
-      "as_of_date": "2026-10-22",
-      "status": "Latest",
-      "note": "供需表10月發行預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-10-22/index.html"
+      "note": "Nov2026e發行表。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-10-29/index.html"
     },
     {
       "broker": "BofA",
@@ -1391,11 +1499,11 @@
       "type": "Gross Supply",
       "call": "$360Bn",
       "target_date": "2026",
-      "call_date": "2026-10-22",
-      "as_of_date": "2026-10-22",
+      "call_date": "2026-10-29",
+      "as_of_date": "2026-10-29",
       "status": "Latest",
-      "note": "供需表的全年HY發行預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-10-22/index.html"
+      "note": "FY2026e發行表。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-10-29/index.html"
     },
     {
       "broker": "BofA",
@@ -1404,7 +1512,7 @@
       "call": "Utilities",
       "target_date": "",
       "call_date": "2026-09-25",
-      "as_of_date": "2026-10-22",
+      "as_of_date": "2026-10-29",
       "status": "Carried",
       "note": "BofA將Utilities列為HY OW。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-09-25/index.html"
@@ -1416,7 +1524,7 @@
       "call": "Technology",
       "target_date": "",
       "call_date": "2026-09-25",
-      "as_of_date": "2026-10-22",
+      "as_of_date": "2026-10-29",
       "status": "Carried",
       "note": "BofA將Technology列為HY OW。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-09-25/index.html"
@@ -1428,7 +1536,7 @@
       "call": "Travel/Leisure",
       "target_date": "",
       "call_date": "2026-08-06",
-      "as_of_date": "2026-10-22",
+      "as_of_date": "2026-10-29",
       "status": "Carried",
       "note": "HY sector recommendation",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-08-06/index.html"
@@ -1440,7 +1548,7 @@
       "call": "Real Estate",
       "target_date": "",
       "call_date": "2026-09-25",
-      "as_of_date": "2026-10-22",
+      "as_of_date": "2026-10-29",
       "status": "Carried",
       "note": "BofA將Real Estate列為HY UW。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-09-25/index.html"
@@ -1452,7 +1560,7 @@
       "call": "Healthcare",
       "target_date": "",
       "call_date": "2026-09-25",
-      "as_of_date": "2026-10-22",
+      "as_of_date": "2026-10-29",
       "status": "Carried",
       "note": "BofA將Healthcare列為HY UW。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-09-25/index.html"
@@ -1464,7 +1572,7 @@
       "call": "Food Producers",
       "target_date": "",
       "call_date": "2026-09-25",
-      "as_of_date": "2026-10-22",
+      "as_of_date": "2026-10-29",
       "status": "Carried",
       "note": "BofA將Food Producers列為HY UW。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-09-25/index.html"
@@ -1476,7 +1584,7 @@
       "call": "Chemicals",
       "target_date": "",
       "call_date": "2026-09-25",
-      "as_of_date": "2026-10-22",
+      "as_of_date": "2026-10-29",
       "status": "Carried",
       "note": "BofA將Chemicals列為HY UW。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-09-25/index.html"
@@ -1488,7 +1596,7 @@
       "call": "約$30Bn",
       "target_date": "2H 2026",
       "call_date": "2026-07-30",
-      "as_of_date": "2026-10-22",
+      "as_of_date": "2026-10-29",
       "status": "Carried",
       "note": "AI-adjacent supply pipeline",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-high-yield-and-loan-strategy-2026-07-30/index.html"
@@ -1497,25 +1605,13 @@
       "broker": "GS",
       "asset": "US HY",
       "type": "Spread",
-      "call": ">335bps",
-      "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
-      "status": "Latest",
-      "note": "近端下行情境；美元預期適度超過3月高點，歐元參考2025年4月水準。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "US HY",
-      "type": "Spread",
       "call": "295bps",
       "target_date": "2026-12",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard基礎情境。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -1523,11 +1619,11 @@
       "type": "Spread",
       "call": "290bps",
       "target_date": "2027-03",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard基礎情境。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -1535,10 +1631,22 @@
       "type": "Spread",
       "call": "280bps",
       "target_date": "2027-06",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard基礎情境。",
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
+    },
+    {
+      "broker": "GS",
+      "asset": "US HY",
+      "type": "Spread",
+      "call": ">335bps",
+      "target_date": "",
+      "call_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
+      "status": "Carried",
+      "note": "近端下行情境；美元預期適度超過3月高點，歐元參考2025年4月水準。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
     },
     {
@@ -1547,11 +1655,11 @@
       "type": "Gross Supply",
       "call": "$375Bn",
       "target_date": "2027",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard年度發行預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -1559,11 +1667,23 @@
       "type": "Gross Supply",
       "call": "$340Bn",
       "target_date": "2026",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard年度發行預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
+    },
+    {
+      "broker": "GS",
+      "asset": "US HY",
+      "type": "Overweight Sector",
+      "call": "Energy",
+      "target_date": "",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "建議增加與AI Spread相關較低的Sector作防禦配置。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -1572,7 +1692,7 @@
       "call": "475bps",
       "target_date": "2026-12",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "Leveraged Loan年底Spread target，由525bps下調。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-high-yield-and-leveraged-loan-2026-09-18/index.html"
@@ -1584,7 +1704,7 @@
       "call": "315bps",
       "target_date": "2026-12",
       "call_date": "2026-09-18",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "US HY bond年底Spread target，由350bps下調。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-high-yield-and-leveraged-loan-2026-09-18/index.html"
@@ -1704,10 +1824,22 @@
       "call": "€650Bn",
       "target_date": "2026",
       "call_date": "2026-08-28",
-      "as_of_date": "2026-10-16",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "2026年€ IG總發行預估。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-the-european-credit-strategist-2026-08-28/index.html"
+    },
+    {
+      "broker": "BofA",
+      "asset": "EUR IG",
+      "type": "Overweight Sector",
+      "call": "Exporters vs Domestics",
+      "target_date": "2026-12",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "年底前偏好出口企業、尤其周邊國家，對沖消費信心下降。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-the-european-credit-strategist-2026-10-30/index.html"
     },
     {
       "broker": "BofA",
@@ -1716,10 +1848,46 @@
       "call": "增加",
       "target_date": "",
       "call_date": "2026-10-16",
-      "as_of_date": "2026-10-16",
-      "status": "Latest",
+      "as_of_date": "2026-10-30",
+      "status": "Carried",
       "note": "BofA預期未來幾季歐元計價hyperscaler供給增加；原文未給數值與可精確換算的日期。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/bofa-the-european-credit-strategist-2026-10-16/index.html"
+    },
+    {
+      "broker": "GS",
+      "asset": "EUR IG",
+      "type": "Spread",
+      "call": "88bps",
+      "target_date": "2026-12",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
+    },
+    {
+      "broker": "GS",
+      "asset": "EUR IG",
+      "type": "Spread",
+      "call": "86bps",
+      "target_date": "2027-03",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
+    },
+    {
+      "broker": "GS",
+      "asset": "EUR IG",
+      "type": "Spread",
+      "call": "84bps",
+      "target_date": "2027-06",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -1728,45 +1896,9 @@
       "call": "128bps",
       "target_date": "",
       "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
-      "status": "Latest",
+      "as_of_date": "2026-10-30",
+      "status": "Carried",
       "note": "近端下行情境；美元預期適度超過3月高點，歐元參考2025年4月水準。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "EUR IG",
-      "type": "Spread",
-      "call": "88bps",
-      "target_date": "2026-12",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
-      "status": "Latest",
-      "note": "Forecast dashboard基礎情境。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "EUR IG",
-      "type": "Spread",
-      "call": "86bps",
-      "target_date": "2027-03",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
-      "status": "Latest",
-      "note": "Forecast dashboard基礎情境。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "EUR IG",
-      "type": "Spread",
-      "call": "84bps",
-      "target_date": "2027-06",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
-      "status": "Latest",
-      "note": "Forecast dashboard基礎情境。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
     },
     {
@@ -1775,11 +1907,11 @@
       "type": "Gross Supply",
       "call": "€900Bn",
       "target_date": "2027",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard年度發行預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -1787,11 +1919,23 @@
       "type": "Gross Supply",
       "call": "€850Bn",
       "target_date": "2026",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard年度發行預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
+    },
+    {
+      "broker": "GS",
+      "asset": "EUR IG",
+      "type": "Underweight Sector",
+      "call": "French Banks",
+      "target_date": "",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "對整體歐洲Banks較建設性，但French Banks維持underweight。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -1800,7 +1944,7 @@
       "call": "French Financials",
       "target_date": "2027",
       "call_date": "2026-10-02",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "GS預期法國Financials在2027年總統選舉前相對落後。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-02/index.html"
@@ -1811,11 +1955,11 @@
       "type": "Spread",
       "call": "110bps",
       "target_date": "2026-12",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "上調2026年底目標，由90bps升至110bps。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -1823,11 +1967,11 @@
       "type": "Gross Supply",
       "call": "€730Bn",
       "target_date": "2026",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "全年gross issuance目標。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -1835,11 +1979,11 @@
       "type": "Overweight Sector",
       "call": "Senior Non-Financials vs Bank Bail-In",
       "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "維持相對價值交易。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -1847,11 +1991,11 @@
       "type": "Hyperscaler Issuance",
       "call": "€50Bn",
       "target_date": "2026",
-      "call_date": "2026-10-16",
-      "as_of_date": "2026-10-23",
-      "status": "Carried",
-      "note": "JPM仍維持2026年歐元hyperscaler發行預估，但指出可能低於預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-10-16/index.html"
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
+      "status": "Latest",
+      "note": "維持下修後全年目標，但可能未達；部分取決於Meta年底前是否發行。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -1860,7 +2004,7 @@
       "call": "€27Bn",
       "target_date": "2026 Sep-Nov",
       "call_date": "2026-08-14",
-      "as_of_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
       "status": "Carried",
       "note": "JPM expects almost €27Bn of hyperscaler paper to print in euros during the September-November primary window.",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-08-14/index.html"
@@ -1977,25 +2121,13 @@
       "broker": "GS",
       "asset": "EUR HY",
       "type": "Spread",
-      "call": "446bps",
-      "target_date": "",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
-      "status": "Latest",
-      "note": "近端下行情境；美元預期適度超過3月高點，歐元參考2025年4月水準。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
-    },
-    {
-      "broker": "GS",
-      "asset": "EUR HY",
-      "type": "Spread",
       "call": "315bps",
       "target_date": "2026-12",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard基礎情境。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -2003,11 +2135,11 @@
       "type": "Spread",
       "call": "310bps",
       "target_date": "2027-03",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard基礎情境。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -2015,10 +2147,22 @@
       "type": "Spread",
       "call": "305bps",
       "target_date": "2027-06",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard基礎情境。",
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
+    },
+    {
+      "broker": "GS",
+      "asset": "EUR HY",
+      "type": "Spread",
+      "call": "446bps",
+      "target_date": "",
+      "call_date": "2026-10-23",
+      "as_of_date": "2026-10-30",
+      "status": "Carried",
+      "note": "近端下行情境；美元預期適度超過3月高點，歐元參考2025年4月水準。",
       "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
     },
     {
@@ -2027,11 +2171,11 @@
       "type": "Gross Supply",
       "call": "€130Bn",
       "target_date": "2027",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard年度發行預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "GS",
@@ -2039,11 +2183,11 @@
       "type": "Gross Supply",
       "call": "€115Bn",
       "target_date": "2026",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "Forecast dashboard年度發行預估。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/gs-global-credit-trader-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -2051,11 +2195,11 @@
       "type": "Spread",
       "call": "375bps",
       "target_date": "2026-12",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "上調2026年底目標，由300bps升至375bps。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-10-30/index.html"
     },
     {
       "broker": "JPM",
@@ -2063,11 +2207,11 @@
       "type": "Gross Supply",
       "call": "€140Bn",
       "target_date": "2026",
-      "call_date": "2026-10-23",
-      "as_of_date": "2026-10-23",
+      "call_date": "2026-10-30",
+      "as_of_date": "2026-10-30",
       "status": "Latest",
-      "note": "全年gross issuance目標，不含銀行與Insurance。",
-      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-10-23/index.html"
+      "note": "本期表格／Key views重申。",
+      "source_url": "https://creditbase02.github.io/ib-knowledge-base/reports/jpm-european-credit-weekly-2026-10-30/index.html"
     }
   ]
 }
