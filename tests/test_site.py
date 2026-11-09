@@ -79,11 +79,11 @@ class GeneratedSiteTests(unittest.TestCase):
             self.assertTrue(end is None or end >= publish.date.today())
         sectors = [item["call"] for item in self.forecast["calls"] if item["broker"] == "BofA" and item["asset"] == "US IG" and item["type"] == "Overweight Sector"]
         self.assertTrue({"Utilities", "Pipelines", "Energy"}.issubset(sectors))
-        # BofA's Oct-30 sector table reiterates the Oct-23 Telecom OW -> UW change.
+        # BofA's Nov-06 sector table reiterates the Oct-23 Telecom OW -> UW change.
         telecom = [item for item in self.forecast["calls"] if item["broker"] == "BofA" and item["asset"] == "US IG" and item["call"] == "Telecom"]
         self.assertEqual(len(telecom), 1)
         self.assertEqual(telecom[0]["type"], "Underweight Sector")
-        self.assertEqual(telecom[0]["call_date"], "2026-10-30")
+        self.assertEqual(telecom[0]["call_date"], "2026-11-06")
         self.assertEqual(telecom[0]["status"], "Latest")
         self.assertNotIn("$200Bn per year", [item["call"] for item in self.forecast["calls"]])
 
