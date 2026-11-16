@@ -28,6 +28,24 @@ FORBIDDEN = (
 
 
 class MarkdownRenderingTests(unittest.TestCase):
+    def test_carried_call_target_is_not_its_original_call_year(self) -> None:
+        source = "BofA/example.md"
+        ledger = {
+            "coverage": [{"broker": "BofA", "report_date": "2026-11-13", "assets": ["US IG"]}],
+            "records": [
+                {"broker": "BofA", "asset": "US IG", "type": "Hyperscaler Issuance",
+                 "series": "hyperscaler/usd-annual", "call": "~$200Bn USD",
+                 "target_date": year, "report_date": "2026-11-06", "source_report": source}
+                for year in ("2026", "2027")
+            ],
+        }
+        calls = {"US IG": [{"券商": "BofA", "Call 日期": "2026-11-13",
+                  "Hyperscaler issuance": "~$200Bn USD（2026，Carried，自 2026-11-06）；~$200Bn USD（2027，Carried，自 2026-11-06）"}]}
+        publish.attach_call_links(calls, ledger, {source: {"slug": "bofa-example"}})
+        items = calls["US IG"][0]["CallItems"]["Hyperscaler issuance"]
+        self.assertEqual([item["target_date"] for item in items], ["2026", "2027"])
+        self.assertTrue(all(item["status"] == "Carried" for item in items))
+
     def test_ordered_list_continues_across_blank_lines(self) -> None:
         rendered = publish.render_markdown(
             "1. **第一項：** 內容。\n\n"
@@ -78,12 +96,14 @@ class GeneratedSiteTests(unittest.TestCase):
             end = publish.target_date_end(item["target_date"])
             self.assertTrue(end is None or end >= publish.date.today())
         sectors = [item["call"] for item in self.forecast["calls"] if item["broker"] == "BofA" and item["asset"] == "US IG" and item["type"] == "Overweight Sector"]
-        self.assertTrue({"Utilities", "Pipelines", "Energy"}.issubset(sectors))
-        # BofA's Nov-06 sector table reiterates the Oct-23 Telecom OW -> UW change.
+        self.assertTrue({"Utilities", "Banks/Brokers", "Technology ex-AI"}.issubset(sectors))
+        # Nov-13 explicitly moves Energy/Pipelines to MW and reiterates Telecom UW.
+        self.assertNotIn("Pipelines", sectors)
+        self.assertNotIn("Energy", sectors)
         telecom = [item for item in self.forecast["calls"] if item["broker"] == "BofA" and item["asset"] == "US IG" and item["call"] == "Telecom"]
         self.assertEqual(len(telecom), 1)
         self.assertEqual(telecom[0]["type"], "Underweight Sector")
-        self.assertEqual(telecom[0]["call_date"], "2026-11-06")
+        self.assertEqual(telecom[0]["call_date"], "2026-11-13")
         self.assertEqual(telecom[0]["status"], "Latest")
         self.assertNotIn("$200Bn per year", [item["call"] for item in self.forecast["calls"]])
 

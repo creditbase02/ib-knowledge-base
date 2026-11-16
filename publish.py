@@ -454,8 +454,9 @@ def attach_call_links(
                     if len(candidates) > 1:
                         segment = normalize_call_text(token["segment"])
                         qualifiers = {
-                            normalize_call_text(value)
+                            normalize_call_text(part)
                             for value in re.findall(r"[（(]([^（）()]*)[）)]", token["segment"])
+                            for part in re.split(r"[，,]", value)
                         }
                         target_matches = [
                             item
