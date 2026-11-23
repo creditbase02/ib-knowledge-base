@@ -93,8 +93,12 @@ class GeneratedSiteTests(unittest.TestCase):
             self.assertTrue(item["source_url"].startswith("https://creditbase02.github.io/ib-knowledge-base/reports/"))
             slug = item["source_url"].removeprefix("https://creditbase02.github.io/ib-knowledge-base/reports/").removesuffix("/index.html").strip("/")
             self.assertTrue((PUBLIC_DIR / "reports" / slug / "index.html").is_file())
+            # Compare against the feed's as-of date, not CI run date, so a
+            # historically correct snapshot (and rollbacks) remain deployable
+            # after short-dated weekly windows expire.
+            as_of = publish.date.fromisoformat(self.forecast["content_as_of"])
             end = publish.target_date_end(item["target_date"])
-            self.assertTrue(end is None or end >= publish.date.today())
+            self.assertTrue(end is None or end >= as_of)
         sectors = [item["call"] for item in self.forecast["calls"] if item["broker"] == "BofA" and item["asset"] == "US IG" and item["type"] == "Overweight Sector"]
         self.assertTrue({"Utilities", "Banks/Brokers", "Technology ex-AI"}.issubset(sectors))
         # Nov-13 explicitly moves Energy/Pipelines to MW and reiterates Telecom UW.
